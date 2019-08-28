@@ -17,7 +17,7 @@ Minha coleção de Livro/CD/DVD (Desafio Técnico)
 
 ## Requisitos necessários:
 - Você precisa ter o Visual Studio 2017/2019 e o .NET Core 2.2 SDK / Ou Docker.
-- A última versão do SDK por ser baixada em https://dot.net/core.
+- A última versão do SDK por ser baixada em https://dotnet.microsoft.com/download/dotnet-core.
 - MongoDB instalado na máquina rodando na porta 27017.
 
 Você também pode rodar o projeto no Visual Studio Code (Windows, Linux or MacOS).
