@@ -12,7 +12,7 @@ Minha coleção de Livro/CD/DVD (Desafio Técnico)
 - ASP.NET WebApi Core
 - NUnit
 - Swagger UI
-- MongoGB
+- MongoDB
 - Docker
 
 ## Requisitos necessários:
@@ -24,9 +24,8 @@ Você também pode rodar o projeto no Visual Studio Code (Windows, Linux or MacO
 
 ## Arquitetura:
 
-- SOLID
 - Domain Driven Design
-- Repositório e Serviço
+- Princípios SOLID
 
 ## Como usar:
 Visual Studio:
