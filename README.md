@@ -3,7 +3,7 @@
 
 Desafio Mundipagg ![Build status](https://ci.appveyor.com/api/projects/status/rl2ja69994rt3ei6?svg=true)
 =====================
-Desafio Técnico - Processo Seletivo Mundipagg.
+Minha coleção de Livro/CD/DVD - Processo Seletivo Mundipagg (Desafio Ténico)
 
 ## Tecnologias Implementadas:
 
