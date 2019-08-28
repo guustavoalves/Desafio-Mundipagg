@@ -46,7 +46,7 @@ Docker:
  - Abra o navegador e acesse a API pelo endereço: "http://localhost:44394/swagger/index.html";
  - Acesse a interface pelo endereço: "http://localhost:44309/".
 
-## News
+## News:
 
 **v1.0 - 27/08/2019**
 - Criação do repositório
