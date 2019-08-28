@@ -16,7 +16,7 @@ Desafio Técnico - Processo Seletivo Mundipagg.
 - Docker
 
 ## Requisitos necessários:
-- Você precisa ter a última versão do Visual Studio 2017 and o .NET Core 2.2 SDK / Ou Docker 
+- Você precisa ter a última versão do Visual Studio 2017 e o .NET Core 2.2 SDK / Ou Docker 
 - A última versão do SDK por ser baixada em https://dot.net/core.
 
 Você também pode rodar o projeto no Visual Studio Code (Windows, Linux or MacOS).
@@ -26,6 +26,10 @@ Você também pode rodar o projeto no Visual Studio Code (Windows, Linux or MacO
 - Arquitetura completa com preocupação de separação de responsabilidade, SOLID e código limpo
 - Domain Driven Design
 - Repositório e Serviço
+
+## Arquitetura:
+
+# Utilizando o Visual Studio
 
 ## News
 
