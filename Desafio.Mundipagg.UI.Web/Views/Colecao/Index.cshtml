@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Desafio.Mundipagg.UI.Web.Models.Colecao>
+
+    @{
+        ViewData["Title"] = "Index";
+    }
+
+    <h1>Minha Coleção</h1>
+    <br />
+
+    @using (Html.BeginForm("Index", "Colecao", FormMethod.Get))
+    {
+    <p>
+        <table>
+            <tr>
+                <td align="right">
+                    Tipo:&nbsp;
+                </td>
+                <td>
+                    @Html.DropDownList("tipo", new List<SelectListItem>
+                               {
+                                   new SelectListItem{Text = "", Value = ""},
+                                   new SelectListItem{Text = "CD", Value = "1"},
+                                   new SelectListItem{Text = "DVD", Value = "2"},
+                                   new SelectListItem{Text = "Livro", Value = "3"}
+                               }, new { style = "width: 178px; height: 30px" })
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    Palavra-chave:&nbsp;
+                </td>
+                <td>
+                    @Html.TextBox("search", ViewBag.CurrentSearch as string)
+                    <input type="submit" value="Filtrar" />
+                </td>
+            </tr>
+        </table>
+    </p>
+    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.ActionLink("Id", "Index", new { order = "1", search = ViewBag.CurrentSearch, tipo = ViewBag.CurrentTipo })
+                </th>
+                <th>
+                    @Html.ActionLink("Título", "Index", new { order = "2", search = ViewBag.CurrentSearch, tipo = ViewBag.CurrentTipo })
+                </th>
+                <th>
+                    @Html.ActionLink("Tipo", "Index", new { order = "3", search = ViewBag.CurrentSearch, tipo = ViewBag.CurrentTipo })
+                </th>
+                <th>
+                    @Html.ActionLink("Localização", "Index", new { order = "4", search = ViewBag.CurrentSearch, tipo = ViewBag.CurrentTipo })
+                </th>
+                <th>
+                    @Html.ActionLink("Status", "Index", new { order = "5", search = ViewBag.CurrentSearch, tipo = ViewBag.CurrentTipo })
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titulo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Localizacao)
+                    </td>
+                    <td>
+                        @if (item.Status == "Emprestado")
+                        {
+                            @Html.ActionLink("Emprestado", "DetailsByColecao", "Emprestimo", new { id = item.Id }, null)
+                        }
+                        else
+                        {
+                            @Html.DisplayFor(modelItem => item.Status)
+                        }
+                    </td>
+                    <td>
+                        @{
+                            string controller = (item.Tipo.ToUpper() == "LIVRO") ? "Livro" : "Midia";
+                        }
+                            
+                         @Html.ActionLink("Details", "Details", @controller, new {  id=item.Id  }) |
+                         @Html.ActionLink("Delete", "Delete", @controller, new {  id=item.Id  }, new { onclick = "javascript:return confirm('Realmente deseja excluir?');" })
+
+                    </td>
+                </tr>
+              }
+        </tbody>
+    </table>

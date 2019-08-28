@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  sitedesafioweb:
+    image: sitedesafioweb
+    build:
+      context: .
+    ports:
+      - "44309:80"

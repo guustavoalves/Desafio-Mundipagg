@@ -1,0 +1,31 @@
+﻿@model Desafio.Mundipagg.UI.Web.Models.Emprestimo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Emprestimo</h4>
+<hr />
+
+@using (Html.BeginForm("CreateEmprestimo", "Emprestimo", FormMethod.Get))
+{
+    <table>
+        <tr>
+            <td align="right">Item:</td>
+            <td>@Html.DropDownList("item", ViewBag.Item as SelectList, new { @class = "form-control" })</td>
+        </tr>
+        <td align="right">Pessoa:</td>
+        <td>@Html.DropDownList("pessoa", ViewBag.Pessoa as SelectList, new { @class = "form-control" })</td>
+        <td>&nbsp;&nbsp;<input type="submit" value="Create" /></td>
+    </table>
+}
+<br />
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

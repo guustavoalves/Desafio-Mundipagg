@@ -1,0 +1,16 @@
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\bin\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.deps.json
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\bin\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.dll
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\bin\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.pdb
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.csproj.CoreCompileInputs.cache
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.AssemblyInfoInputs.cache
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.AssemblyInfo.cs
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.dll
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.pdb
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\bin\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.deps.json
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\bin\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.dll
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\bin\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.pdb
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.csproj.CoreCompileInputs.cache
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.AssemblyInfoInputs.cache
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.AssemblyInfo.cs
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.dll
+C:\Users\NX-\Dropbox\Estudos\Desafio Mundipagg\Projeto\Desafio.Mundipagg.Docker.2\Desafio.Mundipagg.Infra\obj\Debug\netcoreapp2.2\Desafio.Mundipagg.Infra.pdb

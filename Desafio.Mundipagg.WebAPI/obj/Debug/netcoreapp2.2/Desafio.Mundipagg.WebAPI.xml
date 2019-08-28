@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Desafio.Mundipagg.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.Get">
+            <summary>
+            Retorna uma lista com todas os itens
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir item para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.GetLivros">
+            <summary>
+            Retorna uma lista com todas os livros
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir livro para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.GetLivro(System.String)">
+            <summary>
+            Retorna uma lista com todas os livros
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir livro para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.GetMidias">
+            <summary>
+            Retorna uma lista com todas as midias
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir midia para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.GetMidia(System.String)">
+            <summary>
+            Retorna uma midia
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir midia para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.GetEmprestimos">
+            <summary>
+            Retorna uma lista com todos os emprestimos
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir emprestimo para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.GetEmprestimo(System.String)">
+            <summary>
+            Retorna um emprestimo
+            </summary>        
+            <returns></returns>
+            <response code="200">Retornado com sucesso</response>
+            <response code="400">Se der algum erro</response>
+            <response code="404">Se não existir emprestimo para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.PostLivro(Desafio.Mundipagg.AppService.DTO.LivroDTO)">
+            <summary>
+            Cria um novo livro
+            </summary>  
+            <param name="livro"></param>
+            <returns></returns>
+            <response code="201">Criado com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.PostMidia(Desafio.Mundipagg.AppService.DTO.MidiaDTO)">
+            <summary>
+            Cria uma nova mídia
+            </summary>  
+            <param name="midia"></param>
+            <returns></returns>
+            <response code="201">Criada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.PutLivro(System.String,Desafio.Mundipagg.AppService.DTO.LivroDTO)">
+            <summary>
+            Atualiza um livro
+            </summary>  
+            <param name="id"></param>
+            <param name="livro"></param>
+            <returns></returns>
+            <response code="204">Atualizado com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.PutMidia(System.String,Desafio.Mundipagg.AppService.DTO.MidiaDTO)">
+            <summary>
+            Atualiza uma mídia
+            </summary>  
+            <param name="id"></param>
+            <param name="midia"></param>
+            <returns></returns>
+            <response code="204">Criada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.PostEmprestimo(Desafio.Mundipagg.AppService.DTO.EmprestimoDTO)">
+            <summary>
+            Realiza o emprestimo de um item
+            </summary>          
+            <param name="emprestimo"></param>
+            <returns></returns>
+            <response code="201">Emprestimo realizado com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.PutDevolucao(System.String)">
+            <summary>
+            Realiza a devolução do item
+            </summary>          
+            <param name="id"></param>
+            <returns></returns>
+            <response code="204">Devolução realizado com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.DeleteLivro(System.String)">
+            <summary>
+            Deleta um livro
+            </summary>        
+            <param name="id"></param>
+            <returns></returns>
+            <response code="204">Deletado com sucesso</response>
+            <response code="400">Se der algum erro</response>        
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.ItensController.DeleteMidia(System.String)">
+            <summary>
+            Deleta uma midia
+            </summary>        
+            <param name="id"></param>
+            <returns></returns>
+            <response code="204">Deletado com sucesso</response>
+            <response code="400">Se der algum erro</response>        
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.PessoasController.Get">
+            <summary>
+            Retorna uma lista com todas as pessoas
+            </summary>        
+            <returns></returns>
+            <response code="200">Lista retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>  
+            <response code="404">Se não existir pessoa para retornar</response>          
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.PessoasController.Get(System.String)">
+            <summary>
+            Retorna uma pessoa específica
+            </summary>       
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200">Pessoa retornada com sucesso</response>
+            <response code="400">Se der algum erro</response>  
+            <response code="404">Se não existir a pessoa com o código passado</response>    
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.PessoasController.Post(Desafio.Mundipagg.AppService.DTO.PessoaDTO)">
+            <summary>
+            Cria uma nova pessoa
+            </summary>  
+            <param name="pessoa"></param>
+            <returns></returns>
+            <response code="201">Pessoa foi criada com sucesso</response>
+            <response code="400">Se der algum erro</response>
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.PessoasController.Put(System.String,Desafio.Mundipagg.AppService.DTO.PessoaDTO)">
+            <summary>
+            Atualiza uma pessoa
+            </summary>        
+            <param name="id"></param>
+            <param name="pessoa"></param>
+            <returns></returns>
+            <response code="204">Pessoa foi atualizada com sucesso</response>
+            <response code="400">Se der algum erro</response>       
+        </member>
+        <member name="M:Desafio.Mundipagg.WebAPI.Controllers.PessoasController.Delete(System.String)">
+            <summary>
+            Deleta uma pessoa
+            </summary>        
+            <param name="id"></param>
+            <returns></returns>
+            <response code="204">Pessoa foi deletada com sucesso</response>
+            <response code="400">Se der algum erro</response>        
+        </member>
+    </members>
+</doc>
