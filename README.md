@@ -16,36 +16,36 @@ Desafio Técnico - Processo Seletivo Mundipagg.
 - Docker
 
 ## Requisitos necessários:
-- Você precisa ter a última versão do Visual Studio 2017 e o .NET Core 2.2 SDK / Ou Docker 
+- Você precisa ter o Visual Studio 2017/2019 e o .NET Core 2.2 SDK / Ou Docker.
 - A última versão do SDK por ser baixada em https://dot.net/core.
-- MongoDB instalado na máquina rodando na porta 27017
+- MongoDB instalado na máquina rodando na porta 27017.
 
 Você também pode rodar o projeto no Visual Studio Code (Windows, Linux or MacOS).
 
 ## Arquitetura:
 
-- Arquitetura completa com preocupação de separação de responsabilidade, SOLID e código limpo
+- SOLID
 - Domain Driven Design
 - Repositório e Serviço
 
 ## Como usar:
 Visual Studio:
-- Abra, no Projeto "Desafio.Mundipagg.Infra" mude a conexão do MongoDB para "mongodb://localhost:27017"
-- Build na Solution
-- Start
-- Será aberto dois projetos: API e Web
+- Abra o VS, no Projeto "Desafio.Mundipagg.Infra" mude a conexão do MongoDB para "mongodb://localhost:27017";
+- Build na Solution;
+- Start;
+- Será aberto dois projetos: API e Web;
 
 Docker:
- - Abra, no Projeto "Desafio.Mundipagg.Infra" mude a conexão do MongoDB para "mongodb://mongo:27017"
- - Abra o prompt de comando
- - Vá até o diretório da "Solution" utilizando o comando "cd"
- - Execute o comando "docker-compose up -d"
- - Execute o comando "docker-compose up"
- - Vá até o diretório do csproj "Desafio.Mundipagg.UI.Web/Desafio.Mundipagg.UI.Web.csproj"
- - Execute o comando novamente "docker-compose up -d"
- - Execute o comando novamente "docker-compose up"
- - Abra o navegador e acesse a API pelo endereço: "http://localhost:44394/swagger/index.html"
- - Acesse a interface pelo endereço: "http://localhost:44309/"
+ - Abra o VS, no Projeto "Desafio.Mundipagg.Infra" mude a conexão do MongoDB para "mongodb://mongo:27017";
+ - Abra o prompt de comando;
+ - Vá até o diretório da "Solution" utilizando o comando "cd";
+ - Execute o comando "docker-compose up -d";
+ - Execute o comando "docker-compose up";
+ - Vá até o diretório do csproj "Desafio.Mundipagg.UI.Web/Desafio.Mundipagg.UI.Web.csproj";
+ - Execute o comando novamente "docker-compose up -d";
+ - Execute o comando novamente "docker-compose up";
+ - Abra o navegador e acesse a API pelo endereço: "http://localhost:44394/swagger/index.html";
+ - Acesse a interface pelo endereço: "http://localhost:44309/".
 
 ## News
 
