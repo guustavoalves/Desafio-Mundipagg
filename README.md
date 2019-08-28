@@ -1,7 +1,7 @@
 <img src="https://www.mundipagg.com/wp-content/uploads/2018/02/mundipagg-colorida.svg" height="90px" width="300px" alt="Mundipagg"> 
 
 
-Desafio Mundipagg ![Build status](https://ci.appveyor.com/project/guustavoalves/Desafio-Mundipagg/branch/master)
+Desafio Mundipagg [![Build status](https://ci.appveyor.com/project/guustavoalves/Desafio-Mundipagg/branch/master)]
 =====================
 Minha coleção de Livro/CD/DVD (Desafio Técnico)
 
