@@ -30,16 +30,22 @@ Você também pode rodar o projeto no Visual Studio Code (Windows, Linux or MacO
 
 ## Como usar:
 Visual Studio:
-- Abra o VS e vá até o Projeto "Desafio.Mundipagg.Infra" e mude a conexão do MongoDB para "mongodb://localhost:27017"
+- Abra, no Projeto "Desafio.Mundipagg.Infra" mude a conexão do MongoDB para "mongodb://localhost:27017"
 - Build na Solution
 - Start
+- Será aberto dois projetos: API e Web
 
 Docker:
-1 - Abra o prompt de comando
-2 - Vá até o diretório da "Solution" utilizando o comando "cd"
-3 - Rode o comando "docker-compose up -d"
-4 - Vá até o diretório do csproj "Desafio.Mundipagg.UI.Web/Desafio.Mundipagg.UI.Web.csproj"
-
+ - Abra, no Projeto "Desafio.Mundipagg.Infra" mude a conexão do MongoDB para "mongodb://mongo:27017"
+ - Abra o prompt de comando
+ - Vá até o diretório da "Solution" utilizando o comando "cd"
+ - Execute o comando "docker-compose up -d"
+ - Execute o comando "docker-compose up"
+ - Vá até o diretório do csproj "Desafio.Mundipagg.UI.Web/Desafio.Mundipagg.UI.Web.csproj"
+ - Execute o comando novamente "docker-compose up -d"
+ - Execute o comando novamente "docker-compose up"
+ - Abra o navegador e acesse a API pelo endereço: "http://localhost:44394/swagger/index.html"
+ - Acesse a interface pelo endereço: "http://localhost:44309/"
 
 ## News
 
@@ -47,4 +53,4 @@ Docker:
 - Criação do repositório
 
 ## Sobre:
-Desenvolvido por Gustavo Brum Alves 
+Desenvolvido por Gustavo Alves - gustavo.alves@live.com
