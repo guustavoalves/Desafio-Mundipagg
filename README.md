@@ -52,4 +52,4 @@ Docker:
 - Criação do repositório
 
 ## Sobre:
-Desenvolvido por Gustavo Alves - gustavo.alves@live.com
+Gustavo Alves - gustavo.alves@live.com
