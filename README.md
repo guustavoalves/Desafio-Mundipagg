@@ -43,8 +43,8 @@ Docker:
  - Vá até o diretório do csproj "Desafio.Mundipagg.UI.Web/Desafio.Mundipagg.UI.Web.csproj"
  - Execute o comando novamente "docker-compose up -d"
  - Execute o comando novamente "docker-compose up"
- - Abra o navegador e acesse a API pelo endereço: "http://localhost:44394/swagger/index.html";
- - Acesse a interface pelo endereço: "http://localhost:44309/".
+ - Abra o navegador e acesse a API pelo endereço: "http://localhost:44394/swagger/index.html"
+ - Acesse a interface pelo endereço: "http://localhost:44309/"
 
 ## News:
 
